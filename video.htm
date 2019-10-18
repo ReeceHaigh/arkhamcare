@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Swf Object test</title>
+<script src="js/swfobject.js" type="text/javascript"></script> 
+
+</head>
+
+<body style="background:#000000; margin:0">
+<center>
+
+<div id="flashcontent" style="margin:0 auto; padding-top:10px;">
+	This text is replaced by the Flash movie.
+</div>
+</center>
+<script type="text/javascript">
+   	var so = new SWFObject("vid_player_640x360.swf", "mediaflv", "640", "360", "9", "#000000");
+	so.addVariable("filename", "flv/Arkham_Care.flv"); 
+	so.addParam("scale", "noscale");
+	so.addParam("menu", "false");
+	so.write("flashcontent");
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(./images/ac_bg.jpg);
+	background-repeat: repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+table, tr, td {
+	font-size:12px;
+}
+
+p {
+	margin:0px;
+}
+
+.custom_container {
+	width:700px;
+	margin-left: auto ;
+	margin-right: auto ;
+
+}
+
+#top_header {
+	vertical-align:bottom;
+}
+
+.news_title {
+	color: #1e2432;
+	font-weight:bold;
+	cursor: hand;
+	text-decoration:none;
+}
+.news_text {
+	color: #1e2432 ;
+	text-decoration:none;
+}
+a {
+	text-decoration:none;
+}
+
+
+.upper_menu {
+	height:19px;
+	background-color: #8fa2c9;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	vertical-align:middle;
+}
+
+.upper_menu_img {
+	text-align:center;
+}
+
+.upper_body {
+	background-color: #EEEEEE;	
+}
+
+.lower_body {
+
+}
+
+.lower_menu {
+	background-color: #BCBCBC;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;	
+}
+
+.bottom_menu {
+	font-weight:bold;
+	font-size:11px;
+	color:#FFFFFF;
+	margin-left:15px;
+	margin-right:20px;
+	padding-bottom:3px;
+}
+
+.bottom_menu a:hover {
+	color:#15263e;
+}
+
+.tooltip {
+	color: #767981;
+	width:500px;
+	height:0px;
+	border: 2px solid #CCCCCC;
+	font-size:11px;
+}
+.tooltip tr {
+	vertical-align:top;
+	margin-top:0px;
+}
+
+#mainlinks a:hover {
+	color: #1e2458;
+	text-decoration: underline;
+}
+
+#menu_region ul { list-style: none; }
+#menu_region ul li { display: inline; }
+#menu_region ul img {
+
+}
+#menu_region ul a:hover img {
+
+	color: #fff;
+}
+#menu_region ul a:hover { color: #fff; }
+
+
+
+
+
+
+	#link_gothamcity, #link_video {
+		font-size:10px;
+		font-weight:bold;
+		text-transform:uppercase;
+		color:#71796b;
+	}
+
+	div#link_gothamcity {
+		position:relative;
+		top:45px;
+		left:100px;
+		width:155px;	
+	}
+	
+	div#link_video {
+		position:relative;
+		top:123px;
+		left:160px;
+		width:100px;
+	}
+	
+	#link_video a{
+		color:inherit;
+	}
+
+	#link_video a:hover {
+		text-decoration:underline;	
+	}
+
+	#link_gothamcity a{
+		color:inherit;
+	}
+
+	#link_gothamcity a:hover{
+		text-decoration:underline;	
+	}
+
+
+div#ticker {
+	margin-left:1px;
+	width:260px;
+	overflow:hidden;
+	height:14px;
+	font-size:10px;
+	color:#fff;
+	background:#00223d;
+	border:1px solid #fff;
+	padding:4px;
+}
+
+
+.tickercontainer { /* the outer div with the black border */
+margin: 0; 
+padding: 0
+overflow: hidden; 
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+position: relative;
+overflow: hidden;
+width:270px;
+height:12px;
+}
+ul.newsticker { /* that's your list */
+position: relative;
+left: 280px;
+font: bold 10px Arial;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width */
+margin: 0;
+padding: 0;
+margin-right:10px;
+}
+ul.newsticker a {
+color:#fff;
+white-space: nowrap;
+padding: 0;
+font: bold 10px Arial;
+margin: 0 10px 0 0;
+} 
+ul.newsticker span {
+margin: 0 10px 0 0;
+} 
+
+
+
